@@ -6,4 +6,4 @@
   <li>index.html - Description of Web & Welcome homepage<br></li>
 </ul>
 <br>
-<a href="https://red-sprout.github.io/pratice_html/" target="_blank">Github homepage</a>
+<a href="https://red-sprout.github.io/Example_Web/" target="_blank">Github homepage</a>
