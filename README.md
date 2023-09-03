@@ -5,4 +5,4 @@
 3.html - Description of JavaScript<br>
 index.html - Description of Web & Welcome homepage<br>
 <br>
-Github homepage: https://red-sprout.github.io/pratice_html/
+<a href="https://red-sprout.github.io/pratice_html/" target="_blank>Github homepage</a>
