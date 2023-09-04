@@ -1,4 +1,4 @@
-<h1>Practice HTML - first time!</h1>
+<h1>Practice HTML&CSS - first time!</h1>
 <ul>
   <li>1.html - Description of HTML<br></li>
   <li>2.html - Description of CSS<br></li>
