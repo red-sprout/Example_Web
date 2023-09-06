@@ -4,7 +4,7 @@
   <li>2.html - Description of CSS<br></li>
   <li>3.html - Description of JavaScript<br></li>
   <li>index.html - Description of Web & Welcome homepage<br></li>
-  <li>style.css - </li>
+  <li>style.css - Seperation of CSS file from html</li>
 </ul>
 <br>
 <a href="https://red-sprout.github.io/Example_Web/" target="_blank">Github homepage</a>
