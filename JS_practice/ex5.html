@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Object</h1>
+        <h2>Create</h2>
+        <script>
+            var alphabet = {
+                "first":"a",
+                "second":"b"
+            }
+            document.write(alphabet.first + '<br>');
+            document.write(alphabet.second + '<br>');
+            alphabet.third = "c"; // 추가
+            document.write(alphabet.third + '<br>');
+            alphabet["last letter"] = "z" // 추가, 띄어쓰기 있을 시
+            document.write(alphabet["last letter"] + '<br>')
+        </script>
+        <h2>Iterate</h2>
+        <script>
+            for(var key in alphabet){
+                document.write(alphabet[key]+'<br>');
+            }
+        </script>
+        <h2>Property & Method</h2>
+        <script>
+            alphabet.showAll = function(){
+                // 함수가 소속된 객체 : this
+                for(var key in this){
+                    // showAll 안 내용도 출력되므로 그 부분은 if 문으로 출력 안되게 해야 함.
+                    document.write(this[key]+'<br>');
+                }
+            }
+            alphabet.showAll();
+        </script>
+    </body>
+</html>
